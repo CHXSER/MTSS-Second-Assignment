@@ -66,4 +66,5 @@ public class IntegerToRomanTest {
     @Test
     public void testConvertOneThousandtoRoman(){
         assertEquals("M", IntegerToRoman.convert(1000));
+    }
 }
